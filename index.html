@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Shoping</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header>
+      <nav class="navbar flex container">
+        <a href="#" class="logo">Urban <span>Pick</span></a>
+
+        <ul class="navlist flex">
+          <li><a href="." class="link link-active">Home</a></li>
+          <li><a href="#category-section" class="link">Shop</a></li>
+          <li>
+            <a href="#new-product-section" class="link">Latest Arrival</a>
+          </li>
+          <li><a href="#best-sale-section" class="link">Sale</a></li>
+          <li><a href="#signup-section" class="link">Contact</a></li>
+          <li class="nav-icons flex">
+            <a href="#" class="icon"
+              ><i class="fa-solid fa-magnifying-glass"></i
+            ></a>
+            <a href="#" class="icon"><i class="fa-solid fa-user"></i></a>
+            <a href="#" class="icon icon-active"
+              ><i class="fa-solid fa-shopping-bag"></i
+            ></a>
+          </li>
+        </ul>
+
+        <a href="#" class="hamburger">
+          <i class="fa-solid fa-bars"></i>
+        </a>
+      </nav>
+    </header>
+
+    <!-- Sections -->
+    <main>
+      <!-- Hero Section -->
+      <section class="hero">
+        <div class="hero-content flex container">
+          <div>
+            <h3>Summer Fashion</h3>
+            <h1>New Collection</h1>
+            <h4>Big sale of this week up to <span>30%</span></h4>
+            <button>Shop Now</button>
+          </div>
+        </div>
+      </section>
+
+      <!--Category Section -->
+      <section class="section" id="category-section">
+        <div class="category-container container">
+          <div class="category">
+            <img src="img/for men.jpg" alt="Men Image" />
+            <button>for Men's</button>
+          </div>
+          <div class="category">
+            <img src="img/for kids.jpg" alt="Kid Image" />
+            <button>for Kid's</button>
+          </div>
+          <div class="category">
+            <img src="img/for accessories.jpg" alt="Accessories Image" />
+            <button>Accessories</button>
+          </div>
+          <div class="category">
+            <img src="img/for women.jpg" alt="Women Image" />
+            <button>for Women's</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- New Product Section -->
+      <section class="section" id="new-product-section">
+        <div class="container">
+          <h2>New Product</h2>
+          <div class="line"></div>
+
+          <div class="card-container flex wrap">
+            <div class="card">
+              <img src="img/card-image1.jpg" alt="Shoe Image" />
+              <div class="card-content">
+                <p class="title">Leather Black Handbag Out Edition</p>
+                <div class="price">
+                  <span class="amount">$100.00</span>
+                </div>
+                <button class="add-to-cart">Add to Cart</button>
+              </div>
+            </div>
+            <div class="card sale">
+              <img src="img/card-image2.jpg" alt="Shoe Image" />
+              <div class="card-content">
+                <p class="title">Leather Black Handbag Out Edition</p>
+                <div class="price">
+                  <del>$150.00</del>
+                  <span class="amount">$100.00</span>
+                </div>
+                <button class="add-to-cart">Add to Cart</button>
+              </div>
+            </div>
+            <div class="card new">
+              <img src="img/card-image3.jpg" alt="Shoe Image" />
+              <div class="card-content">
+                <p class="title">Leather Black Handbag Out Edition</p>
+                <div class="price">
+                  <span class="amount">$100.00</span>
+                </div>
+                <button class="add-to-cart">Add to Cart</button>
+              </div>
+            </div>
+            <div class="card new">
+              <img src="img/card-image4.jpg" alt="Shoe Image" />
+              <div class="card-content">
+                <p class="title">Leather Black Handbag Out Edition</p>
+                <div class="price">
+                  <span class="amount">$100.00</span>
+                </div>
+                <button class="add-to-cart">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Sale Section -->
+      <section class="section" id="sale-section">
+        <div class="sale-container">
+          <h3>New Trend 2025</h3>
+          <h1>Women's Collection</h1>
+          <div class="line"></div>
+          <h4>Big sale of this week</h4>
+          <button>Shop Now</button>
+        </div>
+      </section>
+
+      <!-- Best Sale Section -->
+      <section class="section" id="best-sale-section">
+        <div class="container">
+          <h2>Best Sale</h2>
+          <div class="line"></div>
+
+          <div class="card-container flex wrap">
+            <div class="card">
+              <img src="img/card-image5.jpg" alt="Shoe Image" />
+              <div class="card-content">
+                <p class="title">Leather Black Handbag Out Edition</p>
+                <div class="price">
+                  <span class="amount">$100.00</span>
+                </div>
+                <button class="add-to-cart">Add to Cart</button>
+              </div>
+            </div>
+            <div class="card new">
+              <img src="img/card-image6.jpg" alt="Shoe Image" />
+              <div class="card-content">
+                <p class="title">Leather Black Handbag Out Edition</p>
+                <div class="price">
+                  <span class="amount">$100.00</span>
+                </div>
+                <button class="add-to-cart">Add to Cart</button>
+              </div>
+            </div>
+            <div class="card">
+              <img src="img/card-image7.jpg" alt="Shoe Image" />
+              <div class="card-content">
+                <p class="title">Leather Black Handbag Out Edition</p>
+                <div class="price">
+                  <span class="amount">$100.00</span>
+                </div>
+                <button class="add-to-cart">Add to Cart</button>
+              </div>
+            </div>
+            <div class="card sale">
+              <img src="img/card-image8.jpg" alt="Shoe Image" />
+              <div class="card-content">
+                <p class="title">Leather Black Handbag Out Edition</p>
+                <div class="price">
+                  <del>$150.00</del>
+                  <span class="amount">$100.00</span>
+                </div>
+                <button class="add-to-cart">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="card-container flex wrap">
+            <div class="card sale">
+              <img src="img/card-image9.jpg" alt="Shoe Image" />
+              <div class="card-content">
+                <p class="title">Leather Black Handbag Out Edition</p>
+                <div class="price">
+                  <del>$150.00</del>
+                  <span class="amount">$100.00</span>
+                </div>
+                <button class="add-to-cart">Add to Cart</button>
+              </div>
+            </div>
+            <div class="card new">
+              <img src="img/card-image10.jpg" alt="Shoe Image" />
+              <div class="card-content">
+                <p class="title">Leather Black Handbag Out Edition</p>
+                <div class="price">
+                  <span class="amount">$100.00</span>
+                </div>
+                <button class="add-to-cart">Add to Cart</button>
+              </div>
+            </div>
+            <div class="card">
+              <img src="img/card-image11.jpg" alt="Shoe Image" />
+              <div class="card-content">
+                <p class="title">Leather Black Handbag Out Edition</p>
+                <div class="price">
+                  <span class="amount">$100.00</span>
+                </div>
+                <button class="add-to-cart">Add to Cart</button>
+              </div>
+            </div>
+            <div class="card sale">
+              <img src="img/card-image12.jpg" alt="Shoe Image" />
+              <div class="card-content">
+                <p class="title">Leather Black Handbag Out Edition</p>
+                <div class="price">
+                  <del>$150.00</del>
+                  <span class="amount">$100.00</span>
+                </div>
+                <button class="add-to-cart">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Service Providing Section -->
+      <section class="section" id="service-section">
+        <div class="secondary-bg">
+          <div class="container flex wrap">
+            <div class="box">
+              <i class="fa-solid fa-truck"></i>
+              <h5><a href="#">Free Shipping</a></h5>
+              <p class="desc">Free Shipping on order over $99</p>
+            </div>
+            <div class="box">
+              <i class="fa-solid fa-money-bill-1"></i>
+              <h5><a href="#">Cash On Delivery</a></h5>
+              <p class="desc">The Internet Trend To Request</p>
+            </div>
+            <div class="box">
+              <i class="fa-solid fa-gift"></i>
+              <h5><a href="#">Gift For All</a></h5>
+              <p class="desc">Receive Gift When Subscribe</p>
+            </div>
+            <div class="box">
+              <i class="fa-solid fa-clock"></i>
+              <h5><a href="#">Opening All Week</a></h5>
+              <p class="desc">6.00 am - 7.00 pm</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- New Latest Section -->
+      <section class="section" id="latest-section">
+        <div class="container">
+          <h2>New Latest</h2>
+          <div class="line"></div>
+
+          <div class="blog-container flex wrap">
+            <div class="blog-box">
+              <img src="img/news-image1.jpg" alt="Image of Women" />
+              <div class="blog-content">
+                <h3 class="heading"><a href="#">New Trend 2025</a></h3>
+                <p class="desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Molestias aspernatur esse, architecto neque quod adipisci.
+                </p>
+                <a href="#" class="blog-link">Read More</a>
+              </div>
+            </div>
+            <div class="blog-box">
+              <img src="img/news-image2.jpg" alt="Ramp Walk Image" />
+              <div class="blog-content">
+                <h3 class="heading"><a href="#">New Trend 2025</a></h3>
+                <p class="desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Molestias aspernatur esse, architecto neque quod adipisci.
+                </p>
+                <a href="#" class="blog-link">Read More</a>
+              </div>
+            </div>
+            <div class="blog-box">
+              <img src="img/news-image3.jpg" alt="Image of Women" />
+              <div class="blog-content">
+                <h3 class="heading"><a href="#">New Trend 2025</a></h3>
+                <p class="desc">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Molestias aspernatur esse, architecto neque quod adipisci.
+                </p>
+                <a href="#" class="blog-link">Read More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Sign Up Section -->
+      <section class="section" id="signup-section">
+        <div class="secondary-bg">
+          <form class="container flex wrap">
+            <h3>Sign Up for Send Newsletter</h3>
+
+            <div class="input-container flex">
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Your Email"
+                autocomplete="off"
+              />
+              <button>Subscribe</button>
+            </div>
+
+            <div class="social-icons flex">
+              <a href="#" class="media"
+                ><i class="fa-brands fa-facebook-f"></i
+              ></a>
+              <a href="#" class="media"
+                ><i class="fa-brands fa-x-twitter"></i
+              ></a>
+              <a href="#" class="media"><i class="fa-brands fa-google"></i></a>
+              <a href="#" class="media"><i class="fa-brands fa-behance"></i></a>
+              <a href="#" class="media"
+                ><i class="fa-brands fa-linkedin-in"></i
+              ></a>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer  -->
+    <footer class="section">
+      <div class="footer-container container flex wrap">
+        <ul class="footer-list">
+          <li><a href="#" class="footer-link">About Us</a></li>
+          <li><a href="#" class="footer-link">Online Store </a></li>
+          <li><a href="#" class="footer-link">Blog</a></li>
+          <li><a href="#" class="footer-link">Contact Us</a></li>
+        </ul>
+        <ul class="footer-list">
+          <li><a href="#" class="footer-link">Login / Register</a></li>
+          <li><a href="#" class="footer-link">Your Cart</a></li>
+          <li><a href="#" class="footer-link">Wishlist Items</a></li>
+          <li><a href="#" class="footer-link">Your Checkout </a></li>
+        </ul>
+        <ul class="footer-list">
+          <li><a href="#" class="footer-link">FAQs</a></li>
+          <li><a href="#" class="footer-link">Term of Services</a></li>
+          <li><a href="#" class="footer-link">Privacy Policy</a></li>
+          <li><a href="#" class="footer-link">Returns</a></li>
+        </ul>
+
+        <ul class="footer-list">
+          <li class="footer-logo">
+            <a href="#" class="logo">Urban <span>Pick</span></a>
+          </li>
+          <li><p class="detail">ABC City, XYZ Road</p></li>
+          <li><p class="detail">+91 123 456 78</p></li>
+          <li><p class="detail">urbanpick@gmail.com</p></li>
+        </ul>
+      </div>
+      <div class="footer-bottom">
+        <p>
+          Copyright &copy:2025 <a href="#" class="footer-link">UrbanPick</a>
+        </p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
