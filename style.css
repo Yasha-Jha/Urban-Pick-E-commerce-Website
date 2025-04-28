@@ -133,7 +133,7 @@ span,
 .hero {
   height: 115vh;
   background-image: url(img/hero-image.jpg);
-  /* background-position: center center; */
+  background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
   /* margin-top: 5.5rem; */
@@ -340,7 +340,7 @@ del {
   padding-block: 5rem;
   text-align: center;
   background-image: url(img/sale-image.jpg);
-  background-position: center;
+  background-position: inherit;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -539,6 +539,78 @@ form h3 {
 }
 
 /* Responsive */
+
+@media screen and (max-width: 1060px) {
+  .hero {
+    height: 80vh;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+  }
+
+  h1 {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+
+  h4 {
+    font-size: 1.2rem;
+    line-height: 3rem;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .logo {
+    font-size: 1.4rem;
+  }
+  .link {
+    font-size: 0.8rem;
+  }
+  .icon {
+    font-size: 0.75rem;
+  }
+  .navbar {
+    height: 15vh;
+  }
+  .navlist {
+    gap: 1.5rem;
+  }
+  .nav-icons {
+    gap: 0.5rem;
+  }
+  .hero {
+    height: 65vh;
+  }
+}
+
+@media screen and (max-width: 855px) {
+  .logo {
+    font-size: 1.25rem;
+  }
+  .navlist {
+    gap: 1.2rem;
+  }
+  .nav-icons {
+    gap: 0.4rem;
+  }
+  h3 {
+    font-size: 1.4rem;
+  }
+  h1 {
+    font-size: 2.5rem;
+  }
+  h4 {
+    font-size: 1.2rem;
+  }
+  button {
+    padding: 0.7rem 2rem;
+  }
+  .card img {
+    min-width: 300px;
+  }
+}
 @media screen and (max-width: 700px) {
   .navlist {
     flex-direction: column;
@@ -604,5 +676,17 @@ form h3 {
   .category:nth-child(2),
   .category:nth-child(4) {
     grid-row: auto;
+  }
+  .card img {
+    min-width: 100%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #email {
+    width: 180px;
+  }
+  .input-container button {
+    padding: 0.4rem 0.2rem;
   }
 }
